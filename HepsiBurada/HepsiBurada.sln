@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HepsiBurada.Common", "HepsiBurada.Common\HepsiBurada.Common.csproj", "{32C6E637-F254-4204-8CD5-A517715B605B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HepsiBurada.Data", "HepsiBurada.Data\HepsiBurada.Data.csproj", "{B3E08A72-F57A-4089-B2DE-4FB7A1C31286}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HepsiBurada.Service", "HepsiBurada.Service\HepsiBurada.Service.csproj", "{93AA0738-9F89-446B-99EB-B99B82A06EC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HepsiBurada.API", "HepsiBurada.API\HepsiBurada.API.csproj", "{D10AF813-6D26-4630-996E-F5AC5F2371C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HepsiBurada.Test", "HepsiBurada.Test\HepsiBurada.Test.csproj", "{C3716BC4-35E0-4D64-91FD-AB71E389D4B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HepsiBurada.Contract", "HepsiBurada.Contract\HepsiBurada.Contract.csproj", "{4827439B-F3F3-4440-8EBB-308EDED3D788}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32C6E637-F254-4204-8CD5-A517715B605B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32C6E637-F254-4204-8CD5-A517715B605B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32C6E637-F254-4204-8CD5-A517715B605B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32C6E637-F254-4204-8CD5-A517715B605B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3E08A72-F57A-4089-B2DE-4FB7A1C31286}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3E08A72-F57A-4089-B2DE-4FB7A1C31286}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3E08A72-F57A-4089-B2DE-4FB7A1C31286}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3E08A72-F57A-4089-B2DE-4FB7A1C31286}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93AA0738-9F89-446B-99EB-B99B82A06EC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93AA0738-9F89-446B-99EB-B99B82A06EC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93AA0738-9F89-446B-99EB-B99B82A06EC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93AA0738-9F89-446B-99EB-B99B82A06EC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D10AF813-6D26-4630-996E-F5AC5F2371C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D10AF813-6D26-4630-996E-F5AC5F2371C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D10AF813-6D26-4630-996E-F5AC5F2371C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D10AF813-6D26-4630-996E-F5AC5F2371C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3716BC4-35E0-4D64-91FD-AB71E389D4B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3716BC4-35E0-4D64-91FD-AB71E389D4B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3716BC4-35E0-4D64-91FD-AB71E389D4B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3716BC4-35E0-4D64-91FD-AB71E389D4B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4827439B-F3F3-4440-8EBB-308EDED3D788}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4827439B-F3F3-4440-8EBB-308EDED3D788}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4827439B-F3F3-4440-8EBB-308EDED3D788}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4827439B-F3F3-4440-8EBB-308EDED3D788}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F225EF44-ED70-4AAC-B747-DDD5995706BF}
+	EndGlobalSection
+EndGlobal
