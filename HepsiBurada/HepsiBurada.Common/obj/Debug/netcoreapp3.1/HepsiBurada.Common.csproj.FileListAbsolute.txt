@@ -1,0 +1,8 @@
+C:\Users\irmak\Documents\GitHub\HepsiBurada\HepsiBurada\HepsiBurada.Common\bin\Debug\netcoreapp3.1\HepsiBurada.Common.deps.json
+C:\Users\irmak\Documents\GitHub\HepsiBurada\HepsiBurada\HepsiBurada.Common\bin\Debug\netcoreapp3.1\HepsiBurada.Common.dll
+C:\Users\irmak\Documents\GitHub\HepsiBurada\HepsiBurada\HepsiBurada.Common\obj\Debug\netcoreapp3.1\HepsiBurada.Common.csprojAssemblyReference.cache
+C:\Users\irmak\Documents\GitHub\HepsiBurada\HepsiBurada\HepsiBurada.Common\obj\Debug\netcoreapp3.1\HepsiBurada.Common.AssemblyInfoInputs.cache
+C:\Users\irmak\Documents\GitHub\HepsiBurada\HepsiBurada\HepsiBurada.Common\obj\Debug\netcoreapp3.1\HepsiBurada.Common.AssemblyInfo.cs
+C:\Users\irmak\Documents\GitHub\HepsiBurada\HepsiBurada\HepsiBurada.Common\bin\Debug\netcoreapp3.1\HepsiBurada.Common.runtimeconfig.json
+C:\Users\irmak\Documents\GitHub\HepsiBurada\HepsiBurada\HepsiBurada.Common\bin\Debug\netcoreapp3.1\HepsiBurada.Common.runtimeconfig.dev.json
+C:\Users\irmak\Documents\GitHub\HepsiBurada\HepsiBurada\HepsiBurada.Common\obj\Debug\netcoreapp3.1\HepsiBurada.Common.genruntimeconfig.cache

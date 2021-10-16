@@ -1,6 +1,8 @@
-﻿namespace HepsiBurada.Data.Repositories.ProductRepository
+﻿using HepsiBurada.Data.Models;
+
+namespace HepsiBurada.Data.Repositories.ProductRepository
 {
-    public interface IProductRepository
+    public interface IProductRepository : IBaseRepository<Product>
     {
     }
 }
