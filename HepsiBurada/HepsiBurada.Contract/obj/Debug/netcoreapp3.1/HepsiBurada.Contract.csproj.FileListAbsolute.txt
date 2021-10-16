@@ -1,0 +1,9 @@
+C:\Users\irmak\Documents\GitHub\HepsiBurada\HepsiBurada\HepsiBurada.Contract\bin\Debug\netcoreapp3.1\HepsiBurada.Contract.deps.json
+C:\Users\irmak\Documents\GitHub\HepsiBurada\HepsiBurada\HepsiBurada.Contract\bin\Debug\netcoreapp3.1\HepsiBurada.Contract.dll
+C:\Users\irmak\Documents\GitHub\HepsiBurada\HepsiBurada\HepsiBurada.Contract\bin\Debug\netcoreapp3.1\HepsiBurada.Contract.pdb
+C:\Users\irmak\Documents\GitHub\HepsiBurada\HepsiBurada\HepsiBurada.Contract\obj\Debug\netcoreapp3.1\HepsiBurada.Contract.csprojAssemblyReference.cache
+C:\Users\irmak\Documents\GitHub\HepsiBurada\HepsiBurada\HepsiBurada.Contract\obj\Debug\netcoreapp3.1\HepsiBurada.Contract.AssemblyInfoInputs.cache
+C:\Users\irmak\Documents\GitHub\HepsiBurada\HepsiBurada\HepsiBurada.Contract\obj\Debug\netcoreapp3.1\HepsiBurada.Contract.AssemblyInfo.cs
+C:\Users\irmak\Documents\GitHub\HepsiBurada\HepsiBurada\HepsiBurada.Contract\obj\Debug\netcoreapp3.1\HepsiBurada.Contract.csproj.CoreCompileInputs.cache
+C:\Users\irmak\Documents\GitHub\HepsiBurada\HepsiBurada\HepsiBurada.Contract\obj\Debug\netcoreapp3.1\HepsiBurada.Contract.dll
+C:\Users\irmak\Documents\GitHub\HepsiBurada\HepsiBurada\HepsiBurada.Contract\obj\Debug\netcoreapp3.1\HepsiBurada.Contract.pdb

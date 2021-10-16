@@ -6,3 +6,7 @@ C:\Users\irmak\Documents\GitHub\HepsiBurada\HepsiBurada\HepsiBurada.Common\obj\D
 C:\Users\irmak\Documents\GitHub\HepsiBurada\HepsiBurada\HepsiBurada.Common\bin\Debug\netcoreapp3.1\HepsiBurada.Common.runtimeconfig.json
 C:\Users\irmak\Documents\GitHub\HepsiBurada\HepsiBurada\HepsiBurada.Common\bin\Debug\netcoreapp3.1\HepsiBurada.Common.runtimeconfig.dev.json
 C:\Users\irmak\Documents\GitHub\HepsiBurada\HepsiBurada\HepsiBurada.Common\obj\Debug\netcoreapp3.1\HepsiBurada.Common.genruntimeconfig.cache
+C:\Users\irmak\Documents\GitHub\HepsiBurada\HepsiBurada\HepsiBurada.Common\bin\Debug\netcoreapp3.1\HepsiBurada.Common.pdb
+C:\Users\irmak\Documents\GitHub\HepsiBurada\HepsiBurada\HepsiBurada.Common\obj\Debug\netcoreapp3.1\HepsiBurada.Common.csproj.CoreCompileInputs.cache
+C:\Users\irmak\Documents\GitHub\HepsiBurada\HepsiBurada\HepsiBurada.Common\obj\Debug\netcoreapp3.1\HepsiBurada.Common.dll
+C:\Users\irmak\Documents\GitHub\HepsiBurada\HepsiBurada\HepsiBurada.Common\obj\Debug\netcoreapp3.1\HepsiBurada.Common.pdb

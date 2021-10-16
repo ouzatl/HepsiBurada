@@ -4,5 +4,11 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\HepsiBurada.Common\HepsiBurada.Common.csproj" />
+    <ProjectReference Include="..\HepsiBurada.Contract\HepsiBurada.Contract.csproj" />
+    <ProjectReference Include="..\HepsiBurada.Service\HepsiBurada.Service.csproj" />
+  </ItemGroup>
+
 
 </Project>

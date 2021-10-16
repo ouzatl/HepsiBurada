@@ -1,0 +1,12 @@
+C:\Users\irmak\Documents\GitHub\HepsiBurada\HepsiBurada\HepsiBurada.Data\bin\Debug\netcoreapp3.1\HepsiBurada.Data.deps.json
+C:\Users\irmak\Documents\GitHub\HepsiBurada\HepsiBurada\HepsiBurada.Data\bin\Debug\netcoreapp3.1\HepsiBurada.Data.dll
+C:\Users\irmak\Documents\GitHub\HepsiBurada\HepsiBurada\HepsiBurada.Data\bin\Debug\netcoreapp3.1\HepsiBurada.Data.pdb
+C:\Users\irmak\Documents\GitHub\HepsiBurada\HepsiBurada\HepsiBurada.Data\bin\Debug\netcoreapp3.1\HepsiBurada.Common.dll
+C:\Users\irmak\Documents\GitHub\HepsiBurada\HepsiBurada\HepsiBurada.Data\bin\Debug\netcoreapp3.1\HepsiBurada.Common.pdb
+C:\Users\irmak\Documents\GitHub\HepsiBurada\HepsiBurada\HepsiBurada.Data\obj\Debug\netcoreapp3.1\HepsiBurada.Data.csprojAssemblyReference.cache
+C:\Users\irmak\Documents\GitHub\HepsiBurada\HepsiBurada\HepsiBurada.Data\obj\Debug\netcoreapp3.1\HepsiBurada.Data.AssemblyInfoInputs.cache
+C:\Users\irmak\Documents\GitHub\HepsiBurada\HepsiBurada\HepsiBurada.Data\obj\Debug\netcoreapp3.1\HepsiBurada.Data.AssemblyInfo.cs
+C:\Users\irmak\Documents\GitHub\HepsiBurada\HepsiBurada\HepsiBurada.Data\obj\Debug\netcoreapp3.1\HepsiBurada.Data.csproj.CoreCompileInputs.cache
+C:\Users\irmak\Documents\GitHub\HepsiBurada\HepsiBurada\HepsiBurada.Data\obj\Debug\netcoreapp3.1\HepsiBurada.Data.csproj.CopyComplete
+C:\Users\irmak\Documents\GitHub\HepsiBurada\HepsiBurada\HepsiBurada.Data\obj\Debug\netcoreapp3.1\HepsiBurada.Data.dll
+C:\Users\irmak\Documents\GitHub\HepsiBurada\HepsiBurada\HepsiBurada.Data\obj\Debug\netcoreapp3.1\HepsiBurada.Data.pdb
