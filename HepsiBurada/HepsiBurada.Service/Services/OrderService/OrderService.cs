@@ -32,11 +32,6 @@ namespace HepsiBurada.Service.Services.OrderService
         {
             try
             {
-                if (order == null ||
-                    string.IsNullOrEmpty(order.ProductCode) ||
-                    order.Quantity <= 0)
-                    return false;
-
                 var product = await _productRepository.GetProductInfo(order.ProductCode);
                 if (product.Stock < order.Quantity)
                     return false;

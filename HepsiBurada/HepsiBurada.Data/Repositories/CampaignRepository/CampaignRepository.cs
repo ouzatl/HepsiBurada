@@ -20,5 +20,13 @@ namespace HepsiBurada.Data.Repositories.CampaignRepository
 
             return campaign;
         }
+
+        public async Task<Campaign> GetCampaign(string productCode, int currentDuration)
+        {
+            var campaign = await _dbContext.Set<Campaign>()
+                .FirstOrDefaultAsync(x => x.ProductCode == productCode && x.Duration > currentDuration);
+
+            return campaign;
+        }
     }
 }

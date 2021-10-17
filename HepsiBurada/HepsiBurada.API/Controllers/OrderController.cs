@@ -22,6 +22,9 @@ namespace HepsiBurada.API.Controllers
         [HttpPost("create_order")]
         public async Task<IActionResult> CreateOrder([FromBody] OrderContract order)
         {
+            if (order == null || string.IsNullOrEmpty(order.ProductCode) || order.Quantity <= 0)
+                return BadRequest();
+
             var result = await _orderService.CreateOrder(order);
 
             if (result)

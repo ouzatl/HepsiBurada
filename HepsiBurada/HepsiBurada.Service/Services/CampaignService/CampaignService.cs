@@ -37,11 +37,6 @@ namespace HepsiBurada.Service.Services.CampaignService
         {
             try
             {
-                if (campaign == null ||
-                    string.IsNullOrEmpty(campaign.ProductCode) ||
-                    string.IsNullOrEmpty(campaign.Name))
-                    return false;
-
                 var campaignModel = _mapper.Map<Campaign>(campaign);
                 await _campaignRepository.Add(campaignModel);
             }

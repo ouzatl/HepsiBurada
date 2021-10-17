@@ -23,6 +23,9 @@ namespace HepsiBurada.API.Controllers
         [HttpPost("create_campaign")]
         public async Task<IActionResult> CreateCampaign([FromBody] CampaignContract campaign)
         {
+            if (campaign == null || string.IsNullOrEmpty(campaign.ProductCode) || string.IsNullOrEmpty(campaign.Name))
+                return BadRequest();
+
             var result = await _campaignService.CreateCampaign(campaign);
             if (result)
                 return Ok($"Campaign created; name {campaign.Name}, product {campaign.ProductCode}, duration {campaign.Duration}, limit {campaign.PriceManipulationLimit}, target sales count {campaign.TargetSalesCount}");
@@ -33,6 +36,9 @@ namespace HepsiBurada.API.Controllers
         [HttpGet("get_campaign_info")]
         public async Task<IActionResult> GetCampaignInfo(string name)
         {
+            if (string.IsNullOrEmpty(name))
+                return BadRequest();
+
             var result = await _campaignService.GetCampaignInfo(name);
             var abc = result.Status.ToString();
             if (result != null)

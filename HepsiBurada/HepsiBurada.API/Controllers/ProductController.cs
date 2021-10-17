@@ -22,6 +22,9 @@ namespace HepsiBurada.API.Controllers
         [HttpPost("create_product")]
         public async Task<IActionResult> CreateProduct([FromBody] ProductContract product)
         {
+            if (product == null || string.IsNullOrEmpty(product.ProductCode))
+                return BadRequest();
+
             var result = await _productService.CreateProduct(product);
             if (result)
                 return Ok($"Product created; code {product.ProductCode}, price {product.Price}, stock {product.Stock}");
@@ -32,6 +35,9 @@ namespace HepsiBurada.API.Controllers
         [HttpGet("get_product_info")]
         public async Task<IActionResult> GetProductInfo(string productCode)
         {
+            if (string.IsNullOrEmpty(productCode))
+                return BadRequest();
+
             var result = await _productService.GetProductInfo(productCode);
             if (result != null)
                 return Ok($"Product {productCode} info; price {result.Price}, stock {result.Stock}");
