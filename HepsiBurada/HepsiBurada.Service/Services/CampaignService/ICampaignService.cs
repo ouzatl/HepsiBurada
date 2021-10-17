@@ -8,6 +8,6 @@ namespace HepsiBurada.Service.Services.CampaignService
     {
         Task<bool> CreateCampaign(CampaignContract campaign);
         Task<CampaignStatusContract> GetCampaignInfo(string name);
-        Task<DateTime> GetAndSetTime(int hour);
+        DateTime GetAndSetTime(int hour);
     }
 }

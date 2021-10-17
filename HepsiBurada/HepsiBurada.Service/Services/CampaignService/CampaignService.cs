@@ -70,7 +70,7 @@ namespace HepsiBurada.Service.Services.CampaignService
             }
         }
 
-        public async Task<DateTime> GetAndSetTime(int hour)
+        public DateTime GetAndSetTime(int hour)
         {
             if (!_memoryCache.TryGetValue(cacheKey, out int time))
                 _memoryCache.Set(cacheKey, default(int));

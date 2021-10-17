@@ -22,7 +22,7 @@ namespace HepsiBurada.Test.Tests
             var result = await CampaignMoq.GetCampaignService()
                 .CreateCampaign(null);
 
-            Assert.Throws();
+            Assert.False(result);
         }
 
         [Fact]

@@ -48,9 +48,9 @@ namespace HepsiBurada.API.Controllers
         }
 
         [HttpPost("increase_time")]
-        public async Task<IActionResult> IncreaseTime(int hour)
+        public IActionResult IncreaseTime(int hour)
         {
-            var result = await _campaignService.GetAndSetTime(hour);
+            var result = _campaignService.GetAndSetTime(hour);
             return Ok(string.Format("Time is {0}", result.ToString("hh':'mm")));
         }
     }
