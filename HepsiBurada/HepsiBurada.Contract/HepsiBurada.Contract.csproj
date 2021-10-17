@@ -5,7 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Contracts\" />
+    <PackageReference Include="protobuf-net.Core" Version="3.0.101" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HepsiBurada.Common\HepsiBurada.Common.csproj" />
   </ItemGroup>
 
 </Project>

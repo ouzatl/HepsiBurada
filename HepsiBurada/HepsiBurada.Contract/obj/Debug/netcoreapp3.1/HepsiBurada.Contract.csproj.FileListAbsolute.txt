@@ -7,3 +7,16 @@ C:\Users\irmak\Documents\GitHub\HepsiBurada\HepsiBurada\HepsiBurada.Contract\obj
 C:\Users\irmak\Documents\GitHub\HepsiBurada\HepsiBurada\HepsiBurada.Contract\obj\Debug\netcoreapp3.1\HepsiBurada.Contract.csproj.CoreCompileInputs.cache
 C:\Users\irmak\Documents\GitHub\HepsiBurada\HepsiBurada\HepsiBurada.Contract\obj\Debug\netcoreapp3.1\HepsiBurada.Contract.dll
 C:\Users\irmak\Documents\GitHub\HepsiBurada\HepsiBurada\HepsiBurada.Contract\obj\Debug\netcoreapp3.1\HepsiBurada.Contract.pdb
+C:\Users\Oğuz\Desktop\HepsiBurada\HepsiBurada\HepsiBurada.Contract\bin\Debug\netcoreapp3.1\HepsiBurada.Contract.deps.json
+C:\Users\Oğuz\Desktop\HepsiBurada\HepsiBurada\HepsiBurada.Contract\bin\Debug\netcoreapp3.1\HepsiBurada.Contract.dll
+C:\Users\Oğuz\Desktop\HepsiBurada\HepsiBurada\HepsiBurada.Contract\bin\Debug\netcoreapp3.1\HepsiBurada.Contract.pdb
+C:\Users\Oğuz\Desktop\HepsiBurada\HepsiBurada\HepsiBurada.Contract\obj\Debug\netcoreapp3.1\HepsiBurada.Contract.csproj.AssemblyReference.cache
+C:\Users\Oğuz\Desktop\HepsiBurada\HepsiBurada\HepsiBurada.Contract\obj\Debug\netcoreapp3.1\HepsiBurada.Contract.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Oğuz\Desktop\HepsiBurada\HepsiBurada\HepsiBurada.Contract\obj\Debug\netcoreapp3.1\HepsiBurada.Contract.AssemblyInfoInputs.cache
+C:\Users\Oğuz\Desktop\HepsiBurada\HepsiBurada\HepsiBurada.Contract\obj\Debug\netcoreapp3.1\HepsiBurada.Contract.AssemblyInfo.cs
+C:\Users\Oğuz\Desktop\HepsiBurada\HepsiBurada\HepsiBurada.Contract\obj\Debug\netcoreapp3.1\HepsiBurada.Contract.csproj.CoreCompileInputs.cache
+C:\Users\Oğuz\Desktop\HepsiBurada\HepsiBurada\HepsiBurada.Contract\obj\Debug\netcoreapp3.1\HepsiBurada.Contract.dll
+C:\Users\Oğuz\Desktop\HepsiBurada\HepsiBurada\HepsiBurada.Contract\obj\Debug\netcoreapp3.1\HepsiBurada.Contract.pdb
+C:\Users\Oğuz\Desktop\HepsiBurada\HepsiBurada\HepsiBurada.Contract\bin\Debug\netcoreapp3.1\HepsiBurada.Common.dll
+C:\Users\Oğuz\Desktop\HepsiBurada\HepsiBurada\HepsiBurada.Contract\bin\Debug\netcoreapp3.1\HepsiBurada.Common.pdb
+C:\Users\Oğuz\Desktop\HepsiBurada\HepsiBurada\HepsiBurada.Contract\obj\Debug\netcoreapp3.1\HepsiBurada.Contract.csproj.CopyComplete

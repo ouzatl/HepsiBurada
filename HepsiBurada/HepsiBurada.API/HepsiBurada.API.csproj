@@ -5,6 +5,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Enums.NET" Version="4.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.11">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\HepsiBurada.Common\HepsiBurada.Common.csproj" />
     <ProjectReference Include="..\HepsiBurada.Contract\HepsiBurada.Contract.csproj" />
     <ProjectReference Include="..\HepsiBurada.Service\HepsiBurada.Service.csproj" />

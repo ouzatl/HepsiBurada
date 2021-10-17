@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\HepsiBurada.Common\HepsiBurada.Common.csproj" />
+    <ProjectReference Include="..\HepsiBurada.Contract\HepsiBurada.Contract.csproj" />
   </ItemGroup>
 
 </Project>

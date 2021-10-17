@@ -1,6 +1,8 @@
-﻿namespace HepsiBurada.Data.Repositories.OrderRepository
+﻿using HepsiBurada.Data.Models;
+
+namespace HepsiBurada.Data.Repositories.OrderRepository
 {
-    public interface IOrderRepository
+    public interface IOrderRepository : IBaseRepository<Order>
     {
     }
 }

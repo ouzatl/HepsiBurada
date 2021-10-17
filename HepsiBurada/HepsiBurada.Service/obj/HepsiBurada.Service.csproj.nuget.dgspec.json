@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\irmak\\Documents\\GitHub\\HepsiBurada\\HepsiBurada\\HepsiBurada.Service\\HepsiBurada.Service.csproj": {}
+    "C:\\Users\\Oğuz\\Desktop\\HepsiBurada\\HepsiBurada\\HepsiBurada.Service\\HepsiBurada.Service.csproj": {}
   },
   "projects": {
-    "C:\\Users\\irmak\\Documents\\GitHub\\HepsiBurada\\HepsiBurada\\HepsiBurada.Common\\HepsiBurada.Common.csproj": {
+    "C:\\Users\\Oğuz\\Desktop\\HepsiBurada\\HepsiBurada\\HepsiBurada.Common\\HepsiBurada.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\irmak\\Documents\\GitHub\\HepsiBurada\\HepsiBurada\\HepsiBurada.Common\\HepsiBurada.Common.csproj",
+        "projectUniqueName": "C:\\Users\\Oğuz\\Desktop\\HepsiBurada\\HepsiBurada\\HepsiBurada.Common\\HepsiBurada.Common.csproj",
         "projectName": "HepsiBurada.Common",
-        "projectPath": "C:\\Users\\irmak\\Documents\\GitHub\\HepsiBurada\\HepsiBurada\\HepsiBurada.Common\\HepsiBurada.Common.csproj",
-        "packagesPath": "C:\\Users\\irmak\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\irmak\\Documents\\GitHub\\HepsiBurada\\HepsiBurada\\HepsiBurada.Common\\obj\\",
+        "projectPath": "C:\\Users\\Oğuz\\Desktop\\HepsiBurada\\HepsiBurada\\HepsiBurada.Common\\HepsiBurada.Common.csproj",
+        "packagesPath": "C:\\Users\\Oğuz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Oğuz\\Desktop\\HepsiBurada\\HepsiBurada\\HepsiBurada.Common\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\irmak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Oğuz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,6 +29,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -37,7 +41,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.11, )"
@@ -58,7 +67,27 @@
               "target": "Package",
               "version": "[5.0.11, )"
             },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL.Design": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
             "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
               "target": "Package",
               "version": "[6.2.3, )"
             }
@@ -74,28 +103,28 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\irmak\\Documents\\GitHub\\HepsiBurada\\HepsiBurada\\HepsiBurada.Contract\\HepsiBurada.Contract.csproj": {
+    "C:\\Users\\Oğuz\\Desktop\\HepsiBurada\\HepsiBurada\\HepsiBurada.Contract\\HepsiBurada.Contract.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\irmak\\Documents\\GitHub\\HepsiBurada\\HepsiBurada\\HepsiBurada.Contract\\HepsiBurada.Contract.csproj",
+        "projectUniqueName": "C:\\Users\\Oğuz\\Desktop\\HepsiBurada\\HepsiBurada\\HepsiBurada.Contract\\HepsiBurada.Contract.csproj",
         "projectName": "HepsiBurada.Contract",
-        "projectPath": "C:\\Users\\irmak\\Documents\\GitHub\\HepsiBurada\\HepsiBurada\\HepsiBurada.Contract\\HepsiBurada.Contract.csproj",
-        "packagesPath": "C:\\Users\\irmak\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\irmak\\Documents\\GitHub\\HepsiBurada\\HepsiBurada\\HepsiBurada.Contract\\obj\\",
+        "projectPath": "C:\\Users\\Oğuz\\Desktop\\HepsiBurada\\HepsiBurada\\HepsiBurada.Contract\\HepsiBurada.Contract.csproj",
+        "packagesPath": "C:\\Users\\Oğuz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Oğuz\\Desktop\\HepsiBurada\\HepsiBurada\\HepsiBurada.Contract\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\irmak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Oğuz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -107,7 +136,12 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Oğuz\\Desktop\\HepsiBurada\\HepsiBurada\\HepsiBurada.Common\\HepsiBurada.Common.csproj": {
+                "projectPath": "C:\\Users\\Oğuz\\Desktop\\HepsiBurada\\HepsiBurada\\HepsiBurada.Common\\HepsiBurada.Common.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -118,6 +152,13 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "protobuf-net.Core": {
+              "target": "Package",
+              "version": "[3.0.101, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -133,21 +174,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\irmak\\Documents\\GitHub\\HepsiBurada\\HepsiBurada\\HepsiBurada.Data\\HepsiBurada.Data.csproj": {
+    "C:\\Users\\Oğuz\\Desktop\\HepsiBurada\\HepsiBurada\\HepsiBurada.Data\\HepsiBurada.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\irmak\\Documents\\GitHub\\HepsiBurada\\HepsiBurada\\HepsiBurada.Data\\HepsiBurada.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Oğuz\\Desktop\\HepsiBurada\\HepsiBurada\\HepsiBurada.Data\\HepsiBurada.Data.csproj",
         "projectName": "HepsiBurada.Data",
-        "projectPath": "C:\\Users\\irmak\\Documents\\GitHub\\HepsiBurada\\HepsiBurada\\HepsiBurada.Data\\HepsiBurada.Data.csproj",
-        "packagesPath": "C:\\Users\\irmak\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\irmak\\Documents\\GitHub\\HepsiBurada\\HepsiBurada\\HepsiBurada.Data\\obj\\",
+        "projectPath": "C:\\Users\\Oğuz\\Desktop\\HepsiBurada\\HepsiBurada\\HepsiBurada.Data\\HepsiBurada.Data.csproj",
+        "packagesPath": "C:\\Users\\Oğuz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Oğuz\\Desktop\\HepsiBurada\\HepsiBurada\\HepsiBurada.Data\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\irmak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Oğuz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -159,9 +203,13 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\irmak\\Documents\\GitHub\\HepsiBurada\\HepsiBurada\\HepsiBurada.Common\\HepsiBurada.Common.csproj": {
-                "projectPath": "C:\\Users\\irmak\\Documents\\GitHub\\HepsiBurada\\HepsiBurada\\HepsiBurada.Common\\HepsiBurada.Common.csproj"
+              "C:\\Users\\Oğuz\\Desktop\\HepsiBurada\\HepsiBurada\\HepsiBurada.Common\\HepsiBurada.Common.csproj": {
+                "projectPath": "C:\\Users\\Oğuz\\Desktop\\HepsiBurada\\HepsiBurada\\HepsiBurada.Common\\HepsiBurada.Common.csproj"
+              },
+              "C:\\Users\\Oğuz\\Desktop\\HepsiBurada\\HepsiBurada\\HepsiBurada.Contract\\HepsiBurada.Contract.csproj": {
+                "projectPath": "C:\\Users\\Oğuz\\Desktop\\HepsiBurada\\HepsiBurada\\HepsiBurada.Contract\\HepsiBurada.Contract.csproj"
               }
             }
           }
@@ -174,6 +222,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -185,28 +234,28 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\irmak\\Documents\\GitHub\\HepsiBurada\\HepsiBurada\\HepsiBurada.Service\\HepsiBurada.Service.csproj": {
+    "C:\\Users\\Oğuz\\Desktop\\HepsiBurada\\HepsiBurada\\HepsiBurada.Service\\HepsiBurada.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\irmak\\Documents\\GitHub\\HepsiBurada\\HepsiBurada\\HepsiBurada.Service\\HepsiBurada.Service.csproj",
+        "projectUniqueName": "C:\\Users\\Oğuz\\Desktop\\HepsiBurada\\HepsiBurada\\HepsiBurada.Service\\HepsiBurada.Service.csproj",
         "projectName": "HepsiBurada.Service",
-        "projectPath": "C:\\Users\\irmak\\Documents\\GitHub\\HepsiBurada\\HepsiBurada\\HepsiBurada.Service\\HepsiBurada.Service.csproj",
-        "packagesPath": "C:\\Users\\irmak\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\irmak\\Documents\\GitHub\\HepsiBurada\\HepsiBurada\\HepsiBurada.Service\\obj\\",
+        "projectPath": "C:\\Users\\Oğuz\\Desktop\\HepsiBurada\\HepsiBurada\\HepsiBurada.Service\\HepsiBurada.Service.csproj",
+        "packagesPath": "C:\\Users\\Oğuz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Oğuz\\Desktop\\HepsiBurada\\HepsiBurada\\HepsiBurada.Service\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\irmak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Oğuz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -218,15 +267,16 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\irmak\\Documents\\GitHub\\HepsiBurada\\HepsiBurada\\HepsiBurada.Common\\HepsiBurada.Common.csproj": {
-                "projectPath": "C:\\Users\\irmak\\Documents\\GitHub\\HepsiBurada\\HepsiBurada\\HepsiBurada.Common\\HepsiBurada.Common.csproj"
+              "C:\\Users\\Oğuz\\Desktop\\HepsiBurada\\HepsiBurada\\HepsiBurada.Common\\HepsiBurada.Common.csproj": {
+                "projectPath": "C:\\Users\\Oğuz\\Desktop\\HepsiBurada\\HepsiBurada\\HepsiBurada.Common\\HepsiBurada.Common.csproj"
               },
-              "C:\\Users\\irmak\\Documents\\GitHub\\HepsiBurada\\HepsiBurada\\HepsiBurada.Contract\\HepsiBurada.Contract.csproj": {
-                "projectPath": "C:\\Users\\irmak\\Documents\\GitHub\\HepsiBurada\\HepsiBurada\\HepsiBurada.Contract\\HepsiBurada.Contract.csproj"
+              "C:\\Users\\Oğuz\\Desktop\\HepsiBurada\\HepsiBurada\\HepsiBurada.Contract\\HepsiBurada.Contract.csproj": {
+                "projectPath": "C:\\Users\\Oğuz\\Desktop\\HepsiBurada\\HepsiBurada\\HepsiBurada.Contract\\HepsiBurada.Contract.csproj"
               },
-              "C:\\Users\\irmak\\Documents\\GitHub\\HepsiBurada\\HepsiBurada\\HepsiBurada.Data\\HepsiBurada.Data.csproj": {
-                "projectPath": "C:\\Users\\irmak\\Documents\\GitHub\\HepsiBurada\\HepsiBurada\\HepsiBurada.Data\\HepsiBurada.Data.csproj"
+              "C:\\Users\\Oğuz\\Desktop\\HepsiBurada\\HepsiBurada\\HepsiBurada.Data\\HepsiBurada.Data.csproj": {
+                "projectPath": "C:\\Users\\Oğuz\\Desktop\\HepsiBurada\\HepsiBurada\\HepsiBurada.Data\\HepsiBurada.Data.csproj"
               }
             }
           }
@@ -239,6 +289,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -250,14 +301,11 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
