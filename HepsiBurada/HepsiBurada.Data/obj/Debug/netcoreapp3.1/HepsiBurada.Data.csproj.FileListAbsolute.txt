@@ -24,4 +24,3 @@ C:\Users\Oğuz\Desktop\HepsiBurada\HepsiBurada\HepsiBurada.Data\obj\Debug\netcor
 C:\Users\Oğuz\Desktop\HepsiBurada\HepsiBurada\HepsiBurada.Data\obj\Debug\netcoreapp3.1\HepsiBurada.Data.pdb
 C:\Users\Oğuz\Desktop\HepsiBurada\HepsiBurada\HepsiBurada.Data\bin\Debug\netcoreapp3.1\HepsiBurada.Contract.dll
 C:\Users\Oğuz\Desktop\HepsiBurada\HepsiBurada\HepsiBurada.Data\bin\Debug\netcoreapp3.1\HepsiBurada.Contract.pdb
-C:\Users\Oğuz\Desktop\HepsiBurada\HepsiBurada\HepsiBurada.Data\obj\Debug\netcoreapp3.1\HepsiBurada.Data.csproj.CopyComplete

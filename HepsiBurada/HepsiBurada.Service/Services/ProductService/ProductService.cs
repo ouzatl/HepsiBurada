@@ -55,10 +55,10 @@ namespace HepsiBurada.Service.Services.ProductService
             try
             {
                 var product = await _productRepository.GetProductInfo(productCode);
-                var currentDuration = _memoryCache.Get(cacheKey);
+                var currentDuration = _memoryCache.Get(cacheKey) ?? default(int);
                 var productCampaign = await _campaignRepository.GetCampaign(productCode, (int)currentDuration);
                 if (productCampaign != null)
-                    product.Price = product.Price -(product.Price * productCampaign.PriceManipulationLimit / 100);
+                    product.Price = product.Price - (product.Price * productCampaign.PriceManipulationLimit / 100);
 
                 var productContract = _mapper.Map<ProductContract>(product);
 

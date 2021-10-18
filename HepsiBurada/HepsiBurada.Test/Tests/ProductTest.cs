@@ -17,33 +17,6 @@ namespace HepsiBurada.Test.Tests
         }
 
         [Fact]
-        public async Task CREATE_PRODUCT_NULL_BODY_FAIL_CASE()
-        {
-            var result = await ProductMoq.GetProductService()
-                .CreateProduct(null);
-
-            Assert.False(result);
-        }
-
-        [Fact]
-        public async Task CREATE_PRODUCT_NULL_PRODUCT_CODE_FAIL_CASE()
-        {
-            var result = await ProductMoq.GetProductService()
-                .CreateProduct(new ProductContract { ProductCode = "", Price = 0, Stock = 0 });
-
-            Assert.False(result);
-        }
-
-        [Fact]
-        public async Task GET_PRODUCT_INFO_SUCCES_CASE()
-        {
-            var result = await ProductMoq.GetProductService()
-                .GetProductInfo("P1");
-
-            Assert.NotNull(result);
-        }
-
-        [Fact]
         public async Task GET_PRODUCT_INFO_NULL_PRODUCT_CODE_FAIL_CASE()
         {
             var result = await ProductMoq.GetProductService()

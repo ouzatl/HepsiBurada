@@ -30,4 +30,3 @@ C:\Users\Oğuz\Desktop\HepsiBurada\HepsiBurada\HepsiBurada.Service\obj\Debug\net
 C:\Users\Oğuz\Desktop\HepsiBurada\HepsiBurada\HepsiBurada.Service\obj\Debug\netcoreapp3.1\HepsiBurada.Service.csproj.CoreCompileInputs.cache
 C:\Users\Oğuz\Desktop\HepsiBurada\HepsiBurada\HepsiBurada.Service\obj\Debug\netcoreapp3.1\HepsiBurada.Service.dll
 C:\Users\Oğuz\Desktop\HepsiBurada\HepsiBurada\HepsiBurada.Service\obj\Debug\netcoreapp3.1\HepsiBurada.Service.pdb
-C:\Users\Oğuz\Desktop\HepsiBurada\HepsiBurada\HepsiBurada.Service\obj\Debug\netcoreapp3.1\HepsiBurada.Service.csproj.CopyComplete

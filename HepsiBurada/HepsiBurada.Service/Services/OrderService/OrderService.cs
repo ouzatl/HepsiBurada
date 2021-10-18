@@ -33,13 +33,19 @@ namespace HepsiBurada.Service.Services.OrderService
             try
             {
                 var product = await _productRepository.GetProductInfo(order.ProductCode);
-                if (product.Stock < order.Quantity)
+                if (product != null)
+                {
+                    if (product.Stock < order.Quantity)
+                        return false;
+
+                    var orderModel = _mapper.Map<Order>(order);
+                    await _orderRepository.Add(orderModel);
+                    product.Stock -= order.Quantity;
+                    await _productRepository.Update(product);
+                }
+                else
                     return false;
 
-                var orderModel = _mapper.Map<Order>(order);
-                await _orderRepository.Add(orderModel);
-                product.Stock -= order.Quantity;
-                await _productRepository.Update(product);
             }
             catch (System.Exception ex)
             {
