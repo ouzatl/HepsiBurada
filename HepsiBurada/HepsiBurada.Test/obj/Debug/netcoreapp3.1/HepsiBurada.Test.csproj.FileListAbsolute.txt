@@ -251,4 +251,3 @@ C:\Users\Oğuz\Desktop\HepsiBurada\HepsiBurada\HepsiBurada.Test\bin\Debug\netcor
 C:\Users\Oğuz\Desktop\HepsiBurada\HepsiBurada\HepsiBurada.Test\bin\Debug\netcoreapp3.1\HepsiBurada.Data.pdb
 C:\Users\Oğuz\Desktop\HepsiBurada\HepsiBurada\HepsiBurada.Test\bin\Debug\netcoreapp3.1\HepsiBurada.Service.pdb
 C:\Users\Oğuz\Desktop\HepsiBurada\HepsiBurada\HepsiBurada.Test\bin\Debug\netcoreapp3.1\HepsiBurada.Contract.pdb
-C:\Users\Oğuz\Desktop\HepsiBurada\HepsiBurada\HepsiBurada.Test\obj\Debug\netcoreapp3.1\HepsiBurada.Test.csproj.CopyComplete

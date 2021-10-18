@@ -22,3 +22,4 @@ C:\Users\Oğuz\Desktop\HepsiBurada\HepsiBurada\HepsiBurada.Common\obj\Debug\netc
 C:\Users\Oğuz\Desktop\HepsiBurada\HepsiBurada\HepsiBurada.Common\obj\Debug\netcoreapp3.1\HepsiBurada.Common.dll
 C:\Users\Oğuz\Desktop\HepsiBurada\HepsiBurada\HepsiBurada.Common\obj\Debug\netcoreapp3.1\HepsiBurada.Common.pdb
 C:\Users\Oğuz\Desktop\HepsiBurada\HepsiBurada\HepsiBurada.Common\obj\Debug\netcoreapp3.1\HepsiBurada.Common.genruntimeconfig.cache
+C:\Users\Oğuz\Desktop\HepsiBurada\HepsiBurada\HepsiBurada.Common\obj\Debug\netcoreapp3.1\HepsiBurada.Common.csproj.AssemblyReference.cache

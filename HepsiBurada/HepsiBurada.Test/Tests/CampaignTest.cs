@@ -1,5 +1,13 @@
-﻿using HepsiBurada.Contract.Contracts.Campaign;
+﻿using AutoMapper;
+using HepsiBurada.Common.Enums;
+using HepsiBurada.Common.Logging;
+using HepsiBurada.Contract.Contracts.Campaign;
+using HepsiBurada.Data.Models;
+using HepsiBurada.Data.Repositories.CampaignRepository;
+using HepsiBurada.Service.Services.CampaignService;
 using HepsiBurada.Test.Moqs;
+using Microsoft.Extensions.Caching.Memory;
+using Moq;
 using System.Threading.Tasks;
 using Xunit;
 
@@ -11,43 +19,26 @@ namespace HepsiBurada.Test.Tests
         public async Task CREATE_CAMPAIGN_SUCCES_CASE()
         {
             var result = await CampaignMoq.GetCampaignService()
-                .CreateCampaign(new CampaignContract {Name ="C1", ProductCode="P1", Duration=10, PriceManipulationLimit=20, TargetSalesCount=100 });
+                .CreateCampaign(new CampaignContract { Name = "C1", ProductCode = "P1", Duration = 10, PriceManipulationLimit = 20, TargetSalesCount = 100 });
 
             Assert.True(result);
         }
 
         [Fact]
-        public async Task CREATE_CAMPAIGN_NULL_BODY_FAIL_CASE()
-        {
-            var result = await CampaignMoq.GetCampaignService()
-                .CreateCampaign(null);
-
-            Assert.False(result);
-        }
-
-        [Fact]
-        public async Task CREATE_CAMPAIGN_NULL_NAME_FAIL_CASE()
-        {
-            var result = await CampaignMoq.GetCampaignService()
-                .CreateCampaign(new CampaignContract { Name = null, ProductCode = "", Duration = 0, PriceManipulationLimit = 0, TargetSalesCount = 0 });
-
-            Assert.False(result);
-        }
-        [Fact]
-        public async Task CREATE_CAMPAIGN_NULL_PRODUCT_CODE_FAIL_CASE()
-        {
-            var result = await CampaignMoq.GetCampaignService()
-                .CreateCampaign(new CampaignContract { Name = "C1", ProductCode = null, Duration = 0, PriceManipulationLimit = 0, TargetSalesCount = 0 });
-
-            Assert.False(result);
-        }
-
-
-        [Fact]
         public async Task GET_CAMPAIGN_INFO_SUCCESS_CASE()
         {
-            var result = await CampaignMoq.GetCampaignService()
-                .GetCampaignInfo("C1");
+            var campaignRepo = new Mock<ICampaignRepository>();
+            var campaign = new Mock<ICampaignService>();
+            var memCache = new Mock<IMemoryCache>();
+            var mapper = new Mock<IMapper>();
+            var logger = new Mock<ICompositeLogger>();
+
+            campaignRepo.Setup(p => p.GetCampaignInfo("C1"))
+                .ReturnsAsync(new Campaign { Name = "C1", Duration = 5, PriceManipulationLimit = 20, ProductCode = "P1", TargetSalesCount = 100 });
+
+            var orderservice = new CampaignService(campaignRepo.Object, logger.Object, mapper.Object, memCache.Object);
+
+            var result = await orderservice.GetCampaignInfo("C1");
 
             Assert.NotNull(result);
         }

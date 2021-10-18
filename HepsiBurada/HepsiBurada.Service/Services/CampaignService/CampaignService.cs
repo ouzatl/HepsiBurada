@@ -54,7 +54,7 @@ namespace HepsiBurada.Service.Services.CampaignService
             try
             {
                 var campaign = await _campaignRepository.GetCampaignInfo(name);
-                var currentDuration = _memoryCache.Get(cacheKey);
+                var currentDuration = _memoryCache.Get(cacheKey) ?? 0;
                 var campaignStatusContract = new CampaignStatusContract { Name = name, TargetSales = campaign.TargetSalesCount };
                 if (campaign.Duration < (int)currentDuration)
                     campaignStatusContract.Status = CampaignStatusEnum.Ended;
