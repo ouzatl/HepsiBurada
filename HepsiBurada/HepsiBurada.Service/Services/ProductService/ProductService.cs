@@ -49,7 +49,6 @@ namespace HepsiBurada.Service.Services.ProductService
 
             return true;
         }
-
         public async Task<ProductContract> GetProductInfo(string productCode)
         {
             try

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Gdz6ch2fLobZTDn5YMGXgXIVVLrKlASHLcawRHmUdMayIkcr3r2KEcdU7EOmzd2Ej2wVZAyhWeLZizCWIALWgw==",
+  "dgSpecHash": "J8sZqBnLEgwk7WYmkDb/oigsdIohkzY32He4wAyifNtDDPjxytWsnrI6BRynMN4GnhC2lQjKGkWC3bxgmk7sDw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Oğuz\\Desktop\\HepsiBurada\\HepsiBurada\\HepsiBurada.Test\\HepsiBurada.Test.csproj",
   "expectedPackageFiles": [
@@ -16,7 +16,6 @@
     "C:\\Users\\Oğuz\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.11\\microsoft.entityframeworkcore.abstractions.5.0.11.nupkg.sha512",
     "C:\\Users\\Oğuz\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.11\\microsoft.entityframeworkcore.analyzers.5.0.11.nupkg.sha512",
     "C:\\Users\\Oğuz\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\5.0.11\\microsoft.entityframeworkcore.relational.5.0.11.nupkg.sha512",
-    "C:\\Users\\Oğuz\\.nuget\\packages\\microsoft.entityframeworkcore.relational.design\\1.1.0\\microsoft.entityframeworkcore.relational.design.1.1.0.nupkg.sha512",
     "C:\\Users\\Oğuz\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\5.0.11\\microsoft.entityframeworkcore.sqlserver.5.0.11.nupkg.sha512",
     "C:\\Users\\Oğuz\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0\\microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\Oğuz\\.nuget\\packages\\microsoft.extensions.caching.memory\\5.0.0\\microsoft.extensions.caching.memory.5.0.0.nupkg.sha512",
@@ -45,9 +44,6 @@
     "C:\\Users\\Oğuz\\.nuget\\packages\\moq\\4.16.1\\moq.4.16.1.nupkg.sha512",
     "C:\\Users\\Oğuz\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Users\\Oğuz\\.nuget\\packages\\newtonsoft.json\\10.0.1\\newtonsoft.json.10.0.1.nupkg.sha512",
-    "C:\\Users\\Oğuz\\.nuget\\packages\\npgsql\\5.0.10\\npgsql.5.0.10.nupkg.sha512",
-    "C:\\Users\\Oğuz\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\5.0.10\\npgsql.entityframeworkcore.postgresql.5.0.10.nupkg.sha512",
-    "C:\\Users\\Oğuz\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql.design\\1.1.0\\npgsql.entityframeworkcore.postgresql.design.1.1.0.nupkg.sha512",
     "C:\\Users\\Oğuz\\.nuget\\packages\\nuget.frameworks\\5.0.0\\nuget.frameworks.5.0.0.nupkg.sha512",
     "C:\\Users\\Oğuz\\.nuget\\packages\\protobuf-net.core\\3.0.101\\protobuf-net.core.3.0.101.nupkg.sha512",
     "C:\\Users\\Oğuz\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
@@ -118,7 +114,6 @@
     "C:\\Users\\Oğuz\\.nuget\\packages\\system.resources.resourcemanager\\4.3.0\\system.resources.resourcemanager.4.3.0.nupkg.sha512",
     "C:\\Users\\Oğuz\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
     "C:\\Users\\Oğuz\\.nuget\\packages\\system.runtime.caching\\4.7.0\\system.runtime.caching.4.7.0.nupkg.sha512",
-    "C:\\Users\\Oğuz\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.6.0\\system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512",
     "C:\\Users\\Oğuz\\.nuget\\packages\\system.runtime.extensions\\4.3.0\\system.runtime.extensions.4.3.0.nupkg.sha512",
     "C:\\Users\\Oğuz\\.nuget\\packages\\system.runtime.handles\\4.3.0\\system.runtime.handles.4.3.0.nupkg.sha512",
     "C:\\Users\\Oğuz\\.nuget\\packages\\system.runtime.interopservices\\4.3.0\\system.runtime.interopservices.4.3.0.nupkg.sha512",

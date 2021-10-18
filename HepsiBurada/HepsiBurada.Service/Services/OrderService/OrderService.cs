@@ -55,6 +55,5 @@ namespace HepsiBurada.Service.Services.OrderService
 
             return true;
         }
-
     }
 }

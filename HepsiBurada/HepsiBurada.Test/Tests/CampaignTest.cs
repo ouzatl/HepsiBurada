@@ -1,5 +1,4 @@
 ﻿using AutoMapper;
-using HepsiBurada.Common.Enums;
 using HepsiBurada.Common.Logging;
 using HepsiBurada.Contract.Contracts.Campaign;
 using HepsiBurada.Data.Models;

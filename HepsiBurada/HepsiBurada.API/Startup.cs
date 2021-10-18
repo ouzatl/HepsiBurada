@@ -41,9 +41,6 @@ namespace HepsiBurada.API
 
         private void SqlConnection(IServiceCollection services)
         {
-
-            //services.AddEntityFrameworkNpgsql().AddDbContext<HepsiBuradaContext>(opt =>
-            //                   opt.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));
             var connectionString= Configuration.GetConnectionString("DefaultConnection");
             services.AddDbContext<HepsiBuradaContext>(options => options.UseSqlServer(connectionString));
         }

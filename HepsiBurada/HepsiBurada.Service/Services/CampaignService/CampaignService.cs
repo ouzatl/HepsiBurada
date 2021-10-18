@@ -48,7 +48,6 @@ namespace HepsiBurada.Service.Services.CampaignService
 
             return true;
         }
-
         public async Task<CampaignStatusContract> GetCampaignInfo(string name)
         {
             try
@@ -69,7 +68,6 @@ namespace HepsiBurada.Service.Services.CampaignService
                 return null;
             }
         }
-
         public DateTime GetAndSetTime(int hour)
         {
             if (!_memoryCache.TryGetValue(cacheKey, out int time))

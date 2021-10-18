@@ -14,7 +14,9 @@ C:\Users\Oğuz\Desktop\HepsiBurada\HepsiBurada\HepsiBurada.Data\bin\Debug\netcor
 C:\Users\Oğuz\Desktop\HepsiBurada\HepsiBurada\HepsiBurada.Data\bin\Debug\netcoreapp3.1\HepsiBurada.Data.dll
 C:\Users\Oğuz\Desktop\HepsiBurada\HepsiBurada\HepsiBurada.Data\bin\Debug\netcoreapp3.1\HepsiBurada.Data.pdb
 C:\Users\Oğuz\Desktop\HepsiBurada\HepsiBurada\HepsiBurada.Data\bin\Debug\netcoreapp3.1\HepsiBurada.Common.dll
+C:\Users\Oğuz\Desktop\HepsiBurada\HepsiBurada\HepsiBurada.Data\bin\Debug\netcoreapp3.1\HepsiBurada.Contract.dll
 C:\Users\Oğuz\Desktop\HepsiBurada\HepsiBurada\HepsiBurada.Data\bin\Debug\netcoreapp3.1\HepsiBurada.Common.pdb
+C:\Users\Oğuz\Desktop\HepsiBurada\HepsiBurada\HepsiBurada.Data\bin\Debug\netcoreapp3.1\HepsiBurada.Contract.pdb
 C:\Users\Oğuz\Desktop\HepsiBurada\HepsiBurada\HepsiBurada.Data\obj\Debug\netcoreapp3.1\HepsiBurada.Data.csproj.AssemblyReference.cache
 C:\Users\Oğuz\Desktop\HepsiBurada\HepsiBurada\HepsiBurada.Data\obj\Debug\netcoreapp3.1\HepsiBurada.Data.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Oğuz\Desktop\HepsiBurada\HepsiBurada\HepsiBurada.Data\obj\Debug\netcoreapp3.1\HepsiBurada.Data.AssemblyInfoInputs.cache
@@ -22,5 +24,3 @@ C:\Users\Oğuz\Desktop\HepsiBurada\HepsiBurada\HepsiBurada.Data\obj\Debug\netcor
 C:\Users\Oğuz\Desktop\HepsiBurada\HepsiBurada\HepsiBurada.Data\obj\Debug\netcoreapp3.1\HepsiBurada.Data.csproj.CoreCompileInputs.cache
 C:\Users\Oğuz\Desktop\HepsiBurada\HepsiBurada\HepsiBurada.Data\obj\Debug\netcoreapp3.1\HepsiBurada.Data.dll
 C:\Users\Oğuz\Desktop\HepsiBurada\HepsiBurada\HepsiBurada.Data\obj\Debug\netcoreapp3.1\HepsiBurada.Data.pdb
-C:\Users\Oğuz\Desktop\HepsiBurada\HepsiBurada\HepsiBurada.Data\bin\Debug\netcoreapp3.1\HepsiBurada.Contract.dll
-C:\Users\Oğuz\Desktop\HepsiBurada\HepsiBurada\HepsiBurada.Data\bin\Debug\netcoreapp3.1\HepsiBurada.Contract.pdb

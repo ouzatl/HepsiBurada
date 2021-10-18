@@ -1,6 +1,5 @@
 ﻿using AutoMapper;
 using HepsiBurada.Common.Logging;
-using HepsiBurada.Data;
 using HepsiBurada.Data.Repositories.OrderRepository;
 using HepsiBurada.Data.Repositories.ProductRepository;
 using HepsiBurada.Service.Services.OrderService;

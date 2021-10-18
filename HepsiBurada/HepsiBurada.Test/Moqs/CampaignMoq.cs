@@ -14,7 +14,7 @@ namespace HepsiBurada.Test.Moqs
         public static ICompositeLogger LoggerMoq() => Mock.Of<ICompositeLogger>();
         public static ICampaignRepository CampaignRepositoryMoq() => Mock.Of<ICampaignRepository>();
         public static IMapper MapperMoq() => Mock.Of<IMapper>();
-        public static IMemoryCache MemoryCacheMoq()=> Mock.Of<IMemoryCache>();
+        public static IMemoryCache MemoryCacheMoq() => Mock.Of<IMemoryCache>();
 
         #endregion
 
